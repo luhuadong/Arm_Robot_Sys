@@ -1,0 +1,448 @@
+QLabel {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QLabel[h="0"] {
+    font-size: 18px;
+}
+
+QLabel[h="1"] {
+    font-size: 16px;
+}
+
+QLabel[h="5"] {
+    font-size: 12px;
+    font-weight: bold;
+    color: Blue;
+}
+
+QLabel[h="6"] {
+    font-size: 12px;
+    font-weight: normal;
+    color: Purple;
+}
+
+QPushButton {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QPushButton[type="normal"] {
+    border: 2px solid DarkCyan;
+    border-style: outset;
+}
+
+QPushButton[type="normal"]:pressed {
+    border-style: inset;
+    background-color: LightSeaGreen;
+    color: White;
+}
+
+QPushButton[type="normal"]:disabled {
+    border: 2px solid Gray;
+    color: Gray;
+    border-style: outset;
+}
+
+.QGroupBox {
+    border: 2px solid LightGray;
+    color: Gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QTableView {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: transparent;
+    selection-background-color: LightSeaGreen;
+    selection-color: White;
+}
+
+.QTableWidget {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QListWidget {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: transparent;
+    selection-background-color: LightSeaGreen;
+    selection-color: White;
+}
+
+QComboBox {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid DarkCyan;
+    border-style: inset;
+    padding: 0px 0px 0px 10px;
+    color: Black;
+    background-color: transparent;
+    selection-background-color: LightSeaGreen;
+    selection-color: White;
+}
+
+QComboBox * {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    border: 2px solid DarkCyan;
+    border-style: inset;
+    padding: 5px 0px 0px 5px;
+    color: Black;
+    background-color: White;
+    selection-background-color: LightSeaGreen;
+    selection-color: White;
+}
+
+QComboBox::drop-down {
+    border-image: url(:images/drop_down.png);
+    width: 16px;
+    height: 16px;
+    margin: 4;
+}
+
+#appMainWidget {
+    background-color: Silver;
+}
+
+PanelWidget .QFrame{
+    border: 0px solid Blue;
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 gray, stop:0.4 Black, stop: 1 #2F2F2F);
+}
+
+#screenWidget{
+    /* border: 20px solid DimGray; */
+    background-color: Yellow;
+    border-style: inset;
+}
+
+
+#topBar {
+    /* background-color: LightSkyBlue; */
+    background-color: White;
+    border-bottom: 1px solid LightSkyBlue;
+}
+
+#centralWidget {
+    /* background-color: LightSlateGray; */
+    background-color: White;
+}
+
+#bottomBar {
+    /* background-color: LightSteelBlue; */
+    background-color: White;
+    border-top: 1px solid LightSkyBlue;
+}
+
+/*
+.mandatory {background-color: yellow}
+*/
+
+
+*[mandatoryField="true"] { background-color: yellow }
+
+/* ********** PanelButton ********** */
+
+PanelButton#panelBtn {
+    border: 1px solid Blue;
+    border-radius: 2px;
+    font-size: 16px;
+    color: White;
+    background-color: Gray;
+}
+
+PanelButton#panelBtn:hover {
+    background-color: LightGray;
+}
+
+PanelButton#panelBtn:pressed {
+    border: 1px solid LightBlue;
+}
+
+/* ********** VirtualButton ********** */
+
+VirtualButton#virtualBtn {
+    border: 1px solid LightGray;
+    font-size: 12px;
+    color: White;
+    background-color: transparent;
+}
+
+VirtualButton#virtualBtn:hover {
+    border: 1px solid White;
+}
+
+VirtualButton#virtualBtn:pressed {
+    border: 1px solid Gray;
+}
+
+VirtualButton#virtualBtn:checked {
+    border: 1px solid Gray;
+    color: Chartreuse;
+}
+
+VirtualButton#virtualBtn:checked:hover {
+    border: 1px solid White;
+    color: Chartreuse;
+}
+
+/* ********** Emergency Stop Button ********** */
+
+QPushButton#emergencyStopBtn {
+    border: 1px solid Gray;
+    border-radius: 6px;
+    font-size: 16px;
+    color: White;
+    background-color: Red;
+}
+
+QPushButton#emergencyStopBtn:checked {
+    border: 1px solid Gold;
+    color: Yellow;
+}
+
+/* ********** virtualWidget ********** */
+
+QWidget#virtualWidget {
+    background-color: LightGray;
+}
+
+/* ********** motorSwitch Button ********** */
+
+QPushButton#motorSwitchBtn {
+    border: 2px solid Black;
+    border-radius: 40px;
+    font-size: 14px;
+    color: Black;
+    background-color: Gray;
+}
+
+QPushButton#motorSwitchBtn:pressed {
+    background-color: White;
+}
+
+/* ********** Menu Button (mainScreen) ********** */
+
+QPushButton#mainScreenMenuBtn {
+    border: 4px solid LightSeaGreen;
+    background-color: transparent;
+    background-image: url(:/images/mainScreenMenuBtn_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2px 4px 2px 4px;
+}
+
+QPushButton#mainScreenMenuBtn:checked {
+    background-color: LightSeaGreen;
+    background-image: url(:/images/mainScreenMenuBtn_checked.png);
+}
+
+/* ********** Admin Button (mainScreen) ********** */
+
+QPushButton#mainScreenAdminBtn {
+    border: none;
+    background-color: transparent;
+    background-image: url(:/images/administrator.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2px 2px 2px 2px;
+}
+
+QPushButton#mainScreenAdminBtn:checked {
+    background-color: Gray;
+}
+
+/* ********** Close Button (mainScreen) ********** */
+
+QPushButton#mainScreenCloseBtn {
+    border: 4px solid LightSeaGreen;
+    background-color: transparent;
+    background-image: url(:/images/mainScreenCloseBtn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2px 2px 2px 2px;
+}
+
+QPushButton#mainScreenCloseBtn:pressed {
+    border-width: 4px;
+    background-color: LightGray;
+}
+
+/* ********** EventLog Button (mainScreen) ********** */
+
+QPushButton#eventLogBtn {
+    border: 4px solid LightGray;
+    border-top: none;
+    background-color: transparent;
+    margin: 0px 4px 2px 4px;
+}
+
+QPushButton#eventLogBtn:checked {
+    border-color: Gray;
+    background-color: Gray;
+}
+
+/* ********** Task Button (mainScreen) ********** */
+
+QPushButton#mainScreenTaskBtn {
+    border: 2px solid Black;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0.1 White, stop:0.11 LightGray, stop:0.89 LightGray, stop: 0.9 White);
+    margin: 2px;
+    border-radius: 8px;
+}
+
+QPushButton#mainScreenTaskBtn:checked {
+    border-color: Gray;
+    background-color: Gray;
+    color: White;
+}
+
+/* ********** QuickSet Button (mainScreen) ********** */
+
+QPushButton#mainScreenQuickSetBtn {
+    border: 2px solid LightSeaGreen;
+    background-color: transparent;
+    margin: 2px;
+    color: Black;
+}
+
+QPushButton#mainScreenQuickSetBtn:checked {
+    border-color: Gray;
+    background-color: Gray;
+}
+
+/* ********** QuickSetBar Widget (mainScreen) ********** */
+
+QuickSetBar#mainScreenQuickSetBar > QFrame {
+    border: 2px solid;
+    border-left-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 Gray, stop:1 White);
+    border-top-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 Gray, stop:1 White);
+    border-bottom-color: qlineargradient(x1:0, y1:1, x2:0, y2:0, stop:0 Gray, stop:1 White);
+    border-right: none;
+    background-color: White;
+
+}
+
+/* ********** MainMenu Widget (mainScreen) ********** */
+
+MainMenuWidget#mainScreenMenuWidget > QFrame {
+    border: 4px solid LightSeaGreen;
+    background-color: White;
+    margin: 0px 4px 2px 4px;
+}
+
+MainMenuWidget#mainScreenMenuWidget > QFrame > QTableWidget {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    selection-background-color: LightSeaGreen;
+    selection-color: White;
+}
+
+
+/* ********** NavBar Widget (SimplePage) ********** */
+
+QWidget#SimplePageNavBar {
+    background-color: White;
+    border-bottom: 1px solid Gray;
+}
+
+/* ********** MainWidget Widget (SimplePage) ********** */
+
+QWidget#SimplePageMainWidget {
+    background-color: White;
+}
+
+/* ********** operating buttons QPushButton (operatingBar) ********** */
+
+QPushButton#operatingBarBtn {
+    border: none;
+    background-color: transparent;
+    color: Black;
+    font-size: 16px;
+}
+
+QPushButton#operatingBarBtn:pressed {
+    border: 1px solid Black;
+    background-color: GhostWhite;
+}
+
+QPushButton#operatingBarBtn:checked {
+    border: 1px solid Black;
+    background-color: GhostWhite;
+}
+
+/* ********** operatingBar Widget (operatingBar) ********** */
+
+QWidget#operatingBar {
+    border-top: 1px solid Black;
+    border-bottom: 1px solid Black;
+    border-left: none;
+    border-right: none;
+    background-color: DarkGray;
+}
+
+/* ********** blueLabel QLabel (JoggingPage > displayBox) ********** */
+
+QLabel#blueLabel {
+    font-size: 12px;
+    font-weight: normal;
+    color: Blue;
+}
+
+/* ********** displayBoxBtn QPushButton (JoggingPage > displayBox) ********** */
+
+QPushButton#displayBoxBtn {
+    border: 2px solid LightSeaGreen;
+    border-radius: 30;
+    background-color: White;
+    color: LightSeaGreen;
+    font-size: 16px;
+}
+
+QPushButton#displayBoxBtn:pressed {
+    border-color: SeaGreen;
+    color: SeaGreen;
+    background-color: HoneyDew;
+}
+
+QPushButton#displayBoxBtn:disabled {
+    border-color: Gray;
+    color: Gray;
+}
+
+/* ********** tipsWidget QWidget (SimpleSettingPage) ********** */
+
+QWidget#tipsWidgetOfSimpleSettingPage {
+    border-bottom: 1px solid Gray;
+}
+
+/* ********** toolBtn QToolButton (SimpleSettingPage) ********** */
+
+QToolButton#toolBtnOfSimpleSettingPage {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QToolButton#toolBtnOfSimpleSettingPage:pressed {
+    background-color: PowderBlue;
+    color: White;
+    padding: 0px;
+}
+
+QToolButton#toolBtnOfSimpleSettingPage:checked {
+    background-color: LightSeaGreen;
+    color: White;
+    padding: 0px;
+}

@@ -1,0 +1,5 @@
+*.o
+*.tmp
+*.swp
+GRS_Pro.pro.user*
+moc_*

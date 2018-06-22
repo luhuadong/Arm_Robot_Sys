@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/GR-HMI.qss</file>
+        <file>images/GR-HMI-icon.png</file>
+        <file>images/background.png</file>
+        <file>images/Jogging_Mechanical_Unit_Robot.png</file>
+        <file>images/Jogging_Motion_Mode_Axis.png</file>
+        <file>images/Jogging_Motion_Mode_Linear.png</file>
+        <file>images/Jogging_Motion_Mode_Reorient.png</file>
+        <file>images/systemButton/close.png</file>
+        <file>images/systemButton/close_hover.png</file>
+        <file>images/systemButton/close_pressed.png</file>
+        <file>images/systemButton/min.png</file>
+        <file>images/systemButton/min_hover.png</file>
+        <file>images/systemButton/min_pressed.png</file>
+    </qresource>
+</RCC>

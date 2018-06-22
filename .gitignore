@@ -1,0 +1,4 @@
+*.o
+*.tmp
+*.swp
+build-GRS_Pro*

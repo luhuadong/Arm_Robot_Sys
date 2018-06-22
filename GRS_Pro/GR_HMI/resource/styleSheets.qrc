@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/GR-HMI.qss</file>
+    </qresource>
+</RCC>
