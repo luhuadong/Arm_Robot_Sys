@@ -11,6 +11,6 @@ GSK Robot Controller System with Qt
 ## 启动程序
 
 　　RoboSim 与 GRS_Pro 之间通过共享内存进行通信，并且目前设计为由 RoboSim 创建共享内存，因此需要先启动 RoboSim，再启动 GR_HMI 界面部分。
-　　
+
 　　控制器主界面：
-![image](https://github.com/luhuadong/GSK_Robot_Sys/screenshots/GR_HMI_Main.png)
+![image](https://github.com/luhuadong/GSK_Robot_Sys/blob/master/screenshots/GR_HMI_Main.png)
