@@ -1,8 +1,8 @@
-# GSK_Robot_Sys
+# Arm_Robot_Sys
 
-[![GitHubStars](https://img.shields.io/github/stars/luhuadong/GSK_Robot_Sys?style=flat-square&logo=GitHub)](https://github.com/luhuadong/GSK_Robot_Sys/stargazers)
-[![GitHub](https://img.shields.io/github/license/luhuadong/GSK_Robot_Sys.svg)](https://github.com/luhuadong/GSK_Robot_Sys/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/luhuadong/GSK_Robot_Sys.svg)](https://github.com/luhuadong/GSK_Robot_Sys/releases)
+[![GitHubStars](https://img.shields.io/github/stars/luhuadong/Arm_Robot_Sys?style=flat-square&logo=GitHub)](https://github.com/luhuadong/Arm_Robot_Sys/stargazers)
+[![GitHub](https://img.shields.io/github/license/luhuadong/Arm_Robot_Sys.svg)](https://github.com/luhuadong/Arm_Robot_Sys/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/luhuadong/Arm_Robot_Sys.svg)](https://github.com/luhuadong/Arm_Robot_Sys/releases)
 
 ## 介绍
 
